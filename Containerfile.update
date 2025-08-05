@@ -11,4 +11,4 @@ RUN mv /var/www /usr/share/www && \
     sed -ie 's,/var/www,/usr/share/www,' /etc/httpd/conf/httpd.conf && \
     systemctl enable httpd
 
-COPY files/index-original.html /usr/share/www/html/index.html
+COPY files/index-update.html /usr/share/www/html/index.html
