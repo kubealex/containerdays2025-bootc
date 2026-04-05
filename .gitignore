@@ -2,7 +2,8 @@
 qcow2/**
 output/**
 *.log
-*.json*.iso
+*.json
+*.iso
 bootc_vm.utm/
 tmp/
 .env
