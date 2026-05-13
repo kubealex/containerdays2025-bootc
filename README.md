@@ -6,3 +6,9 @@ Demo project for building and managing bootc-based operating system images.
 
 - podman or docker
 - A bootc-compatible base image
+
+## Build
+
+```bash
+podman build -t bootc-demo .
+```
