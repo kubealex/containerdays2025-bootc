@@ -4,6 +4,7 @@ LABEL maintainer="Alessandro Rossi <al.rossi87@gmail.com>"
 RUN dnf -y group install GNOME && \
     dnf -y clean all && \
     dnf -y install httpd && \
+    dnf -y clean all && \
     systemctl set-default graphical.target && \
     echo "%wheel        ALL=(ALL)       NOPASSWD: ALL" > /etc/sudoers.d/wheel-sudo
 
