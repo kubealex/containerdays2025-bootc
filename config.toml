@@ -1,3 +1,4 @@
+# Blueprint configuration for bootc image
 [[customizations.user]]
 name = "kiosk-user"
 password = "redhat"
