@@ -12,3 +12,7 @@ Demo project for building and managing bootc-based operating system images.
 ```bash
 podman build -t bootc-demo .
 ```
+
+## Usage
+
+Deploy the image to a bootc-compatible host using the generated qcow2 or ISO artifact.
