@@ -3,3 +3,4 @@ qcow2/**
 output/**
 *.log
 *.json*.iso
+bootc_vm.utm/
