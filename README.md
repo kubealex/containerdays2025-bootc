@@ -16,3 +16,7 @@ podman build -t bootc-demo .
 ## Usage
 
 Deploy the image to a bootc-compatible host using the generated qcow2 or ISO artifact.
+
+## License
+
+This project is licensed under the Apache License 2.0.
