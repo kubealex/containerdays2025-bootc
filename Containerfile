@@ -1,5 +1,5 @@
 FROM quay.io/centos-bootc/centos-bootc:stream10
-MAINTAINER Alessandro Rossi <al.rossi87@gmail.com>
+LABEL maintainer="Alessandro Rossi <al.rossi87@gmail.com>"
 
 RUN dnf -y group install GNOME && \
     dnf -y clean all && \
