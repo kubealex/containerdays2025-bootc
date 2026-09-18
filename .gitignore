@@ -4,3 +4,4 @@ output/**
 *.log
 *.json*.iso
 bootc_vm.utm/
+tmp/
