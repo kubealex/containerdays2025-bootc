@@ -3,3 +3,6 @@
 name = "kiosk-user"
 password = "redhat"
 groups = ["wheel"]
+[[customizations.user]]
+name = "admin"
+groups = ["wheel"]
