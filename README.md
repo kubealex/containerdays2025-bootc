@@ -20,3 +20,7 @@ Deploy the image to a bootc-compatible host using the generated qcow2 or ISO art
 ## License
 
 This project is licensed under the Apache License 2.0.
+
+## Acknowledgments
+
+Presented at ContainerDays 2025 in Hamburg.
