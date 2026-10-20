@@ -5,3 +5,4 @@ output/**
 *.json*.iso
 bootc_vm.utm/
 tmp/
+.env
